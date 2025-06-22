@@ -44,7 +44,7 @@ public class Withdraw {
 
                     int updated = updateStmt.executeUpdate();
                     if (updated > 0) {
-                        System.out.println(" ₹" + amount + " withdrawn\n\n\n\n");
+                        System.out.println(" ₹" + amount + " withdrawn\n");
                     }
 
                     updateStmt.close();
